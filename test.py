@@ -1,6 +1,4 @@
-name = input("What is your name:  ")
+num = int(input("Enter a number:  "))
 
-if name:
-    print(f"Hello {name}, nice to meet you")
-else:
-    print("Such an idiot")
+for i in range(0, num):
+    print(i)
